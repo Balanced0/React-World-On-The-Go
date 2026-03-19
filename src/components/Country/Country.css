@@ -6,3 +6,6 @@
     flex-direction: column;
     justify-content: space-between;
 }
+.country-visited{
+    background-color: aqua;
+}
