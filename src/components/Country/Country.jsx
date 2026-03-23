@@ -3,7 +3,6 @@ import {useState} from 'react'
 import './Country.css'
 
 const Country = ({country, handleVisitedCountries}) => {
-    console.log(country);
     const[visit, setVisit] = useState(false);
     const handleVisited = () =>{
         if(visit){
